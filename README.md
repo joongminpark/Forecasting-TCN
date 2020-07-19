@@ -34,19 +34,14 @@ used to obtain the results given below.
 
 ## modal architecture
 
-**Temporal Convolution Network**
+**Temporal Convolution Network**  
+<img src="./assets/tcn.PNG" width="60%">
 
-<img src="./assets/tcn.PNG" width="50%">
-
-**Output module**
-
+**Output module**  
 <img src="./assets/output_module.PNG" width="60%">
 
-**Inside layer module**
-
+**Across layer module**  
 <img src="./assets/across_module.PNG" width="60%">
 
-
-**Inside layer module**
-
+**Inside layer module**  
 <img src="./assets/within_module.PNG" width="60%">
