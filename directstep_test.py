@@ -90,8 +90,8 @@ def main():
 	parser.add_argument('--lr', type=float, default=1e-03, help='learning rate (default: 0.001)')
 	parser.add_argument('--lr_scheduler', type=int, default=40, help='changing learing rate by step size (default: 40)')
 	parser.add_argument('--model_type', type=str, default='TCN1B.Lastlayer', help='which model you choose')
-	parser.add_argument('--load_path', type=str, default='./dataset/녹지캠_preprocessing.csv', help='file path in loading')
-	parser.add_argument('--save_path', type=str, default='./model_save/TCN/dropout/녹지캠/TCN1A_lastlayer_3days/model_name', help='type : ./model_save/TCN/인문대/dropout/TCN1A_lastlayer_3days (TCN1A, TCN1B, TCN2A, TCN2B, lastlayer, attention, sumlayers)')
+	parser.add_argument('--load_path', type=str, default='./dataset/dormitory_preprocessing.csv', help='file path in loading')
+	parser.add_argument('--save_path', type=str, default='./model_save/TCN/dropout/dormitory/TCN1A_lastlayer_3days/model_name', help='type : ./model_save/TCN/dormitory/dropout/TCN1A_lastlayer_3days (TCN1A, TCN1B, TCN2A, TCN2B, lastlayer, attention, sumlayers)')
 
 	args = parser.parse_args()
 
