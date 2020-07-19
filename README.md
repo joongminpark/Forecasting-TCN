@@ -36,17 +36,17 @@ used to obtain the results given below.
 
 **Temporal Convolution Network**
 
-<img src="./assets/tcn.png" width="50%">
+<img src="./assets/tcn.PNG" width="50%">
 
 **Output module**
 
-<img src="./assets/output_module.png" width="60%">
+<img src="./assets/output_module.PNG" width="60%">
 
 **Inside layer module**
 
-<img src="./assets/across_module.png" width="60%">
+<img src="./assets/across_module.PNG" width="60%">
 
 
 **Inside layer module**
 
-<img src="./assets/within_module.png" width="60%">
+<img src="./assets/within_module.PNG" width="60%">
