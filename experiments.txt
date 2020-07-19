@@ -1,0 +1,22 @@
+# TCN train
+* Basic module, Last module
+python main.py --history_day 3 --dropout 0.2 --model_type TCN2B.Lastlayer
+
+* Gate module, Last module
+python main.py --history_day 3 --dropout 0.2 --model_type TCN1B.Lastlayer
+
+* Basic module, Attention module
+python main.py --history_day 3 --dropout 0.2 --model_type TCN2B.Attention
+
+* Gate module, Attention module
+python main.py --history_day 3 --dropout 0.2 --model_type TCN1B.Attention
+
+* Basic module, Sum module
+python main.py --history_day 3 --dropout 0.2 --model_type TCN2B.Sumlayers
+
+* Gate module, Sum module
+python main.py --history_day 3 --dropout 0.2 --model_type TCN1B.Sumlayers
+
+
+# TCN Inference
+python directstep_test.py --history_day 3 --dropout 0.2 --model_type TCN1B.Sumlayers
