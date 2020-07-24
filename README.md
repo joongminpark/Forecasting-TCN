@@ -32,6 +32,9 @@ used to obtain the results given below.
 - Achieve good performance (MAPE, RMSE) compare to other models
 - Searching taget for journal (Completed draft)
 
+**Boxplot for each TCN module**  
+<img src="./assets/boxplot.PNG" width="60%">
+
 ## modal architecture
 
 **Temporal Convolution Network**  
@@ -40,8 +43,8 @@ used to obtain the results given below.
 **Output module**  
 <img src="./assets/output_module.PNG" width="60%">
 
-**Across layer module**  
-<img src="./assets/across_module.PNG" width="60%">
-
 **Inside layer module**  
 <img src="./assets/within_module.PNG" width="60%">
+
+**Outside layer module**  
+<img src="./assets/across_module.PNG" width="60%">
